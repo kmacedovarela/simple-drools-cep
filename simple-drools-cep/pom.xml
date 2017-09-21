@@ -76,9 +76,9 @@
 					<archive>
 						<manifest>
 							<addClasspath>true</addClasspath>
-							<classpathPrefix>/Users/ddoyle/.m2/repository/</classpathPrefix>
+							<classpathPrefix>${env.M2_REPO}</classpathPrefix>
 							<classpathLayoutType>repository</classpathLayoutType>
-							<mainClass>org.jboss.ddoyle.brms.cep.ha.Main</mainClass>
+							<mainClass>org.jboss.ddoyle.drools.cep.demo.Main</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
